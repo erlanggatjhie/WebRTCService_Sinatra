@@ -1,0 +1,11 @@
+h3 Session Information
+- if @infos.any?
+  table#session_information
+    thead
+      tr
+        th Name
+    tbody
+      - for info in @infos
+        tr
+          td #{info.name}
+
