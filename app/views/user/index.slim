@@ -1,8 +1,10 @@
 h3 Users
-table
-  thead
-    tr
-      th Name
-  tbody
-    tr
-      td Someone
+- if @users.any?
+  table#users
+    thead
+      tr
+        th Name
+    tbody
+      - for user in @users
+        tr
+          td #{user.name}
