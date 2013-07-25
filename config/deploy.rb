@@ -1,3 +1,6 @@
+require 'bundler/capistrano'
+
+set :bundle_dir, "/u/gems"
 set :application, "session_payload_holder"
 set :scm, :git
 set :repository,  "https://github.com/erlanggatjhie/WebRTCService_Sinatra.git"

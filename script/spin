@@ -1,5 +1,0 @@
-#!/bin/sh
-
-bundle install --path /u/gems
-bundle exec rake db:migrate
-nohup bundle exec thin start &
