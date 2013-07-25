@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# /u/apps/session_payload_holder/current/
+if [ -e tmp/pids/thin.pid ]; then bundle exec thin stop; fi
+bundle exec thin start --daemonize

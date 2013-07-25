@@ -3,3 +3,4 @@ vendor
 *.swp
 **/*.swp
 db/*.db
+log/
